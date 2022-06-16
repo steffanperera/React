@@ -1,3 +1,1 @@
-```
-⚛️ React JS
-```
+⚡React JS
