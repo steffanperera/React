@@ -1,18 +1,13 @@
-import React, { Component } from "react";
-
-class Navbar extends Component {
-    render() {
-        return (
-            <nav>
-                <h1>Context App</h1>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        );
-    }
-}
+const Navbar = () => {
+  return (
+    <nav>
+      <h1>The GG Blog</h1>
+      <div className="links">
+        <a href="/">Home</a>
+        <a href="/create">New Blog</a>
+      </div>
+    </nav>
+  );
+};
 
 export default Navbar;
