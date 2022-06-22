@@ -6,19 +6,16 @@ const Home = () => {
 
   const handleClick = () => {
     setName("steffa");
-  };
-
-  const handleAge = () => {
     setAge("25");
   };
 
   return (
     <div className="home">
       <h1>Homepage</h1>
-      <p>{name}</p>
+      <p>
+        {name} is {age} years old!
+      </p>
       <button onClick={handleClick}>Click me</button>
-      <p>{age}</p>
-      <button onClick={handleAge}>Age change</button>
     </div>
   );
 };
