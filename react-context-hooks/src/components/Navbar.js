@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <h1>The GG Blog</h1>
       <div className="links">
         <a href="/">Home</a>
