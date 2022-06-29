@@ -1,11 +1,18 @@
 import React from "react";
+import "./App.css";
+import FormInput from "./components/FormInput";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <form>
+        <FormInput placeholder="Username" />
+        <FormInput placeholder="Email" />
+        <FormInput placeholder="Full Name" />
+        <FormInput placeholder="Placeholder" />
+      </form>
     </div>
   );
-}
+};
 
 export default App;
