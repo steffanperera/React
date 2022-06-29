@@ -1,10 +1,11 @@
 import React from "react";
+import "./Registeration.css";
 
 export const Registeration = () => {
   return (
     <div>
       <form>
-        <h1>Registeration Form</h1>
+        <h2 className="title">Registeration Form</h2>
         <div className="divider"></div>
         <div className="form">
           <div className="field">
@@ -19,6 +20,7 @@ export const Registeration = () => {
             <label>Password</label>
             <input type="password" name="password" placeholder="Password" />
           </div>
+          <button className="button">Submit</button>
         </div>
       </form>
     </div>
